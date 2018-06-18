@@ -2,7 +2,7 @@ import sys
 
 
 def calc_expression(num):
-    return (num * 63 + 7492) * 5 - 498
+    return num * 315 + 36962
 
 
 def get_tens_digit(num):
@@ -10,10 +10,7 @@ def get_tens_digit(num):
 
 
 def main(line):
-    try:
-        tens_digit = get_tens_digit(calc_expression(int(line)))
-    except IndexError:
-        tens_digit = 0
+    tens_digit = get_tens_digit(calc_expression(int(line)))
     print(tens_digit)
 
 
