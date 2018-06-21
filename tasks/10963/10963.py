@@ -25,8 +25,6 @@ if __name__ == '__main__':
                 is_closed = 'no'
 
         read_line() # skip blank line between test cases
-
         print(is_closed)
-        
         if n != num_cases -1:
             print()
